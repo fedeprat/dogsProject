@@ -1,5 +1,7 @@
 # Dogs Database
 
+### LinkedIn: https://www.linkedin.com/in/federico-prat/
+
 This is an app that combines data fetched from an external dogs API with the ability to create your own dog and store it. <br>
 
 Technologies and libraries used: <br>
