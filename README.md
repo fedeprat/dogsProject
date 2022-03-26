@@ -20,4 +20,4 @@ Stetically speaking is awful, but internally this app uses a combination of fron
 <br>
 
 ### Fun fact: 
-When I was deploying the back-end and the data base to heroku I had this error saying "$PORT could not bind", I spent an hour and a half changing things until I realized I had a typo in a sequelize model file, funny thing is that since I run my scripts on windows it did not care about it, but heroku runs with linux, which is case sensitive and it was having troubles finding the module which of course had this upper case letter.
+When I was deploying the back-end and the data base to heroku I had this error saying "$PORT could not bind", I spent an hour and a half changing things until I realized it was because heroku uses linux which is case sensitive, locally I was not having this error because Windows is not case sensitive when declaring const X = require './xxx' in NodeJS.
