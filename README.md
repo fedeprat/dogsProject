@@ -2,7 +2,7 @@
 
 ### LinkedIn: https://www.linkedin.com/in/federico-prat/
 ### Deploy: https://dogs-database.vercel.app/
-
+### Back-end and DB deployed on Heroku, front-end deployed on vercel.
 This is an app that combines data fetched from an external dogs API with the ability to create your own dog and store it. <br>
 
 Technologies and libraries used: <br>
@@ -13,7 +13,7 @@ Technologies and libraries used: <br>
   - PostgreSQL to store new data <br>
   - Sequelize to connect the database with the back-end <br>
 <br>
-Stetically speaking is awful, but internally this app uses a combination of front-end and back-end filters that allow the user to find any kind of dog, existing or created in seconds. <br>
+Stetically speaking is awful, but internally this app uses a combination of front-end and back-end filters that allow the user to find any kind of dog, real or created in seconds. <br>
   The form to create a dog is controlled and validated with regex,  it cannot be empty, the name cannot contain other characters than letters and the other inputs cannot have any other type than number.
   The models created with sequelize are also controlled, empty inputs or anything different than letters or numbers are not allowed and also has UUID for randomly generated keys and id
   <br>
