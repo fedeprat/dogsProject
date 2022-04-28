@@ -1,6 +1,6 @@
 # Dogs Database
 
-### LinkedIn: https://www.linkedin.com/in/federico-prat/
+### LinkedIn: https://www.linkedin.com/in/fred-prat/
 ### Deploy: https://dogs-database.vercel.app/
 ### Back-end and DB deployed on Heroku, front-end deployed on vercel.
 This is an app that combines data fetched from an external dogs API with the ability to create your own dog and store it. <br>
